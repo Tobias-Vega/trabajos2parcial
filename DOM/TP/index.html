@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    form>div {
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form>
+    <h2>Register you user</h2>
+
+    <input placeholder="username" type="text" name="username" id="username">
+    <input placeholder="email" type="email" name="email" id="email">
+    <div>
+      <input type="checkbox" name="check" id="check">
+      <span>Aceptar los terminos y condiciones</span>
+    </div>
+
+    <input placeholder="password" type="password" name="password" id="password">
+    <input placeholder="confirm-password" type="password" name="confirm-password" id="confirmpassword">
+
+    <input type="file" name="avatar" id="avatar">
+
+    <button type="button" id="accept">Register</button>
+
+  </form>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
